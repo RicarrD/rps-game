@@ -1,0 +1,59 @@
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #091428;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-row {
+    margin-bottom: 15px;
+}
+
+p {
+    color: #CDFAFA;
+}
+
+button {
+    background-color: #0A323C;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005A82;
+}
+
+span {
+    color: #0AC8B9;
+    font-weight: bold;
+}
+
+#game-container {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#result {
+    color: #CDFAFA;
+    font-size: 18px;
+}
+
+#wins, #losses, #draws {
+    color: #CDFAFA;
+    font-weight: bold;
+}
