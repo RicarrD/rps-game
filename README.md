@@ -8,6 +8,10 @@ Welcome to the Rock, Paper, Scissors game! This simple web-based game allows you
 2. The computer will randomly select its choice.
 3. The game will determine the winner based on the choices made.
 
+## Live in
+
+https://ricarrd.github.io/rps-game/
+
 ## Rules
 
 - Rock crushes Scissors
